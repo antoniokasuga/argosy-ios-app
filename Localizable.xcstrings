@@ -1,0 +1,489 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "barcode.number" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Club Card / Membership / Barcode Number:"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes / dalības / svītrkoda numurs:"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента / членства / штрих-кода:"
+          }
+        }
+      }
+    },
+    "card.holder.name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cardholder Name:"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartes īpašnieka vārds:"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имя владельца карты:"
+          }
+        }
+      }
+    },
+    "club" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Club:"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klubs:"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Клуб:"
+          }
+        }
+      }
+    },
+    "comment.airbalticPins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number is located under the barcode on the back of the card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas zem svītrkoda kartes otrajā pusē"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты"
+          }
+        }
+      }
+    },
+    "comment.apolloKino" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can obtain your Apollo ID by reading the information from the club card’s QR code, which you can find in the Apollo Kino app. Instructions for iOS: Take a screenshot of the QR code, open it in the “Photos” app, view the photo in full screen by tapping it once, then press and hold your finger on the QR code. A pop-up window will appear, displaying your Apollo ID and offering to search for it online or copy it. Choose “Copy”"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apollo ID var iegūt, nolasot informāciju no kluba kartes QR koda, kuru var atrast Apollo Kino lietotnē. iOS instrukcija: Uzņemiet QR koda ekrānuzņēmumu, atveriet to lietotnē “Foto”, skatiet attēlu pilnekrāna režīmā (pieskaroties tam vienreiz), tad uzspiediet uz QR koda un paturiet. Parādīsies uznirstošais lodziņš ar jūsu Apollo ID vērtību un piedāvājumiem meklēt to internetā vai kopēt. Izvēlieties “Kopēt”."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер клиента можно получить, считав информацию с QR кода клубной карты. Инструкция для iOS: сделайте скриншот QR кода, откройте в приложении \"Фото\", откройте фото на весь экран (нажав на него один раз), затем нажмите пальцем на QR код и подержите. Появится всплывающее окно со значением вашего Apollo ID и предложениями поискать его в Интернете или скопировать. Выберите “скопировать”."
+          }
+        }
+      }
+    },
+    "comment.aptiekuAlianse" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number is located under the barcode on the back of the card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas zem svītrkoda kartes otrajā pusē"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты"
+          }
+        }
+      }
+    },
+    "comment.cenuklubsLv" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card ID is located under the barcode on the back of the card, below the name. Make sure to include any spaces in the ID when entering it."
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes ID atrodas zem svītrkoda kartes aizmugurē, zem īpašnieka vārda. Ievadot ID, obligāti iekļaujiet visas atstarpes, kas var būt ID numurā."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты, ниже имени владельца. При вводе обязательно включайте пробелы, которые могут присутствовать в номере."
+          }
+        }
+      }
+    },
+    "comment.circleK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number can be found in the mobile application, below the barcode"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalībnieka numuru var atrast mobilajā lietotnē, zem svītrkoda"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента можно найти в мобильном приложении, под штрих-кодом"
+          }
+        }
+      }
+    },
+    "comment.depo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number must be read from the barcode located on the back of the card. Use a barcode scanner on your mobile device."
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs ir jānolasa no svītrkoda, kas atrodas kartes aizmugurē. Jums ir jāizmanto svītrkodu skeneris savā mobilajā tālrunī."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента необходимо считать со штрих-кода, который находится на обратной стороне карты. Для этого используйте сканер штрих-кодов на своем мобильном устройстве."
+          }
+        }
+      }
+    },
+    "comment.dinoZoo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number is located under the barcode on the back of the card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas zem svītrkoda kartes otrajā pusē"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты"
+          }
+        }
+      }
+    },
+    "comment.domina" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The membership ID can be found in the profile section of the mobile app, under the collected points area."
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta numurs atrodas mobilās lietotnes profila sadaļā, zem uzkrāto punktu skaita"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер клиента находится в разделе профиля мобильного приложения, под накопленными баллами."
+          }
+        }
+      }
+    },
+    "comment.drogas" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number is located under the barcode on the back of the card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas zem svītrkoda kartes otrajā pusē."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты"
+          }
+        }
+      }
+    },
+    "comment.kruza" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number is located under the barcode on the back of the card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas zem svītrkoda kartes otrajā pusē"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты"
+          }
+        }
+      }
+    },
+    "comment.lidl" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The membership ID can be found in the Lidl Plus card section of the mobile application. It is located below the cardholder’s name."
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs var atrast Lidl Plus kartes sadaļā mobilajā lietotnē. Tas atrodas zem kartes īpašnieka vārda"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента можно найти в разделе карты Lidl Plus в мобильном приложении. Он расположен под именем обладателя карты."
+          }
+        }
+      }
+    },
+    "comment.lido" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The client card number can be found in the \"Client Card\" section in the mobile application"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas mobilajā lietotnē, sadaļā \"Klienta karte\""
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится в мобильном приложении, в разделе \"Карта клиента\""
+          }
+        }
+      }
+    },
+    "comment.nordBaby" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number is located under the barcode on the back of the card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas zem svītrkoda kartes otrajā pusē"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты"
+          }
+        }
+      }
+    },
+    "comment.oneFamily" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number is located under the barcode on the back of the card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas zem svītrkoda kartes otrajā pusē"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты"
+          }
+        }
+      }
+    },
+    "comment.veseliba" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The club card number is located under the barcode on the back of the card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klienta kartes numurs atrodas zem svītrkoda kartes otrajā pusē"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Номер карты клиента находится под штрих-кодом на обратной стороне карты"
+          }
+        }
+      }
+    },
+    "create.club.card" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create a Club Card"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izveidot Klienta Kartīti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать Карту Клиента"
+          }
+        }
+      }
+    },
+    "generate.pass" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generate Apple Wallet Pass"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izveidot Apple Wallet karti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать карту для Apple Wallet"
+          }
+        }
+      }
+    },
+    "select.club" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a club"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izvēlieties klubu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите клуб"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ArgosyApp
-//
-//  Created by Antons Polskihs on 02/02/2025.
-//
-
 import SwiftUI
 import PassKit
 
@@ -27,23 +20,24 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
-                Section(header: Text("Cardholder Information")) {
-                    TextField("Name", text: $name)
+                Section(header: Text(NSLocalizedString("card.holder.name", comment: "Cardholder Name"))) {
+                    TextField(NSLocalizedString("card.holder.name", comment: "Cardholder Name"), text: $name)
                         .autocapitalization(.words)
-                    TextField("Barcode Number", text: $barcodeNumber)
+                }
+                Section(header: Text(NSLocalizedString("barcode.number", comment: "Barcode Number"))) {
+                    TextField(NSLocalizedString("barcode.number", comment: "Barcode Number"), text: $barcodeNumber)
                         .keyboardType(.numbersAndPunctuation)
                 }
-                Section(header: Text("Club")) {
-                    Picker("Select a club", selection: $selectedClub) {
-                        Text("Select a club").tag("")
+                Section(header: Text(NSLocalizedString("club", comment: "Club"))) {
+                    Picker(NSLocalizedString("select.club", comment: "Select a club"), selection: $selectedClub) {
+                        Text(NSLocalizedString("select.club", comment: "Select a club")).tag("")
                         ForEach(clubs, id: \.self) { club in
                             Text(club).tag(club)
                         }
                     }
-                    .onChange(of: selectedClub) { newValue, _ in
+                    .onChange(of: selectedClub) { _, newValue in
                         fetchComment(for: newValue)
                     }
-
                     
                     if !shopComment.isEmpty {
                         Text(shopComment)
@@ -58,13 +52,15 @@ struct ContentView: View {
                         if isGenerating {
                             ProgressView()
                         } else {
-                            Text("Generate Pass")
+                            Text(NSLocalizedString("generate.pass", comment: "Generate Apple Wallet Pass"))
+                                .frame(maxWidth: .infinity, alignment: .center)
                         }
                     }
+                    .buttonStyle(.borderedProminent)
                     .disabled(selectedClub.isEmpty || name.isEmpty || barcodeNumber.isEmpty || isGenerating)
                 }
             }
-            .navigationTitle("Create Club Card")
+            .navigationTitle(NSLocalizedString("create.club.card", comment: "Create a Club Card"))
             .sheet(isPresented: $showPassAddSheet) {
                 if let data = passData {
                     PassAddView(passData: data)
@@ -74,24 +70,38 @@ struct ContentView: View {
     }
 
     /// Fetch the club comment from your backend’s comment API.
+    @State private var commentTask: URLSessionDataTask? = nil
+
     func fetchComment(for club: String) {
+        // Cancel any previous comment fetch request
+        commentTask?.cancel()
+        
         guard !club.isEmpty else {
             shopComment = ""
             return
         }
+        
         let encodedClub = club.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
-        // Use the Render address here.
         let urlString = "https://argosy.onrender.com/api/comment?shopName=\(encodedClub)"
         guard let url = URL(string: urlString) else { return }
-        URLSession.shared.dataTask(with: url) { data, response, error in
+        
+        var request = URLRequest(url: url)
+        // Use the languageCode (e.g., "en", "lv", "ru") instead of the full identifier.
+        let languageCode = Locale.current.language.languageCode?.identifier ?? "en"
+        request.setValue("lang=\(languageCode)", forHTTPHeaderField: "Cookie")
+        
+        commentTask = URLSession.shared.dataTask(with: request) { data, response, error in
             if let data = data, let comment = String(data: data, encoding: .utf8) {
                 DispatchQueue.main.async {
-                    shopComment = comment
+                    // Directly update the comment—since any previous task was cancelled,
+                    // this response is the most recent.
+                    self.shopComment = comment
                 }
             } else if let error = error {
                 print("Error fetching comment: \(error)")
             }
-        }.resume()
+        }
+        commentTask?.resume()
     }
 
     /// Generate the pass by calling your backend’s generatePass endpoint.
@@ -104,7 +114,6 @@ struct ContentView: View {
             "name": name
         ]
         
-        // Build the URL with query parameters.
         var components = URLComponents(string: baseUrl)!
         components.queryItems = params.map { key, value in
             URLQueryItem(name: key, value: value)
@@ -157,4 +166,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

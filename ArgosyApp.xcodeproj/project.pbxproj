@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9C2BC7B62D500C8A007C2435 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9C2BC7B52D500C8A007C2435 /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9C2BC7912D4FF97C007C2435 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		9C2BC7802D4FF97A007C2435 /* ArgosyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArgosyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2BC7902D4FF97C007C2435 /* ArgosyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgosyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2BC79A2D4FF97C007C2435 /* ArgosyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgosyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2BC7B52D500C8A007C2435 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		9C2BC7772D4FF97A007C2435 = {
 			isa = PBXGroup;
 			children = (
+				9C2BC7B52D500C8A007C2435 /* Localizable.xcstrings */,
 				9C2BC7822D4FF97A007C2435 /* ArgosyApp */,
 				9C2BC7932D4FF97C007C2435 /* ArgosyAppTests */,
 				9C2BC79D2D4FF97C007C2435 /* ArgosyAppUITests */,
@@ -192,6 +198,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				lv,
 			);
 			mainGroup = 9C2BC7772D4FF97A007C2435;
 			minimizedProjectReferenceProxies = 1;
@@ -212,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2BC7B62D500C8A007C2435 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +337,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -384,6 +394,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
