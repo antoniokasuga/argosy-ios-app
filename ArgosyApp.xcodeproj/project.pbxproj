@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9C2BC7912D4FF97C007C2435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C2BC7782D4FF97A007C2435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C2BC77F2D4FF97A007C2435;
+			remoteInfo = ArgosyApp;
+		};
+		9C2BC79B2D4FF97C007C2435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C2BC7782D4FF97A007C2435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C2BC77F2D4FF97A007C2435;
+			remoteInfo = ArgosyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C2BC7802D4FF97A007C2435 /* ArgosyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArgosyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2BC7902D4FF97C007C2435 /* ArgosyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgosyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2BC79A2D4FF97C007C2435 /* ArgosyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgosyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9C2BC7822D4FF97A007C2435 /* ArgosyApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArgosyApp;
+			sourceTree = "<group>";
+		};
+		9C2BC7932D4FF97C007C2435 /* ArgosyAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArgosyAppTests;
+			sourceTree = "<group>";
+		};
+		9C2BC79D2D4FF97C007C2435 /* ArgosyAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArgosyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C2BC77D2D4FF97A007C2435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2BC78D2D4FF97C007C2435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2BC7972D4FF97C007C2435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C2BC7772D4FF97A007C2435 = {
+			isa = PBXGroup;
+			children = (
+				9C2BC7822D4FF97A007C2435 /* ArgosyApp */,
+				9C2BC7932D4FF97C007C2435 /* ArgosyAppTests */,
+				9C2BC79D2D4FF97C007C2435 /* ArgosyAppUITests */,
+				9C2BC7812D4FF97A007C2435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C2BC7812D4FF97A007C2435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C2BC7802D4FF97A007C2435 /* ArgosyApp.app */,
+				9C2BC7902D4FF97C007C2435 /* ArgosyAppTests.xctest */,
+				9C2BC79A2D4FF97C007C2435 /* ArgosyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C2BC77F2D4FF97A007C2435 /* ArgosyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2BC7A42D4FF97C007C2435 /* Build configuration list for PBXNativeTarget "ArgosyApp" */;
+			buildPhases = (
+				9C2BC77C2D4FF97A007C2435 /* Sources */,
+				9C2BC77D2D4FF97A007C2435 /* Frameworks */,
+				9C2BC77E2D4FF97A007C2435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9C2BC7822D4FF97A007C2435 /* ArgosyApp */,
+			);
+			name = ArgosyApp;
+			packageProductDependencies = (
+			);
+			productName = ArgosyApp;
+			productReference = 9C2BC7802D4FF97A007C2435 /* ArgosyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C2BC78F2D4FF97C007C2435 /* ArgosyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2BC7A72D4FF97C007C2435 /* Build configuration list for PBXNativeTarget "ArgosyAppTests" */;
+			buildPhases = (
+				9C2BC78C2D4FF97C007C2435 /* Sources */,
+				9C2BC78D2D4FF97C007C2435 /* Frameworks */,
+				9C2BC78E2D4FF97C007C2435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C2BC7922D4FF97C007C2435 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9C2BC7932D4FF97C007C2435 /* ArgosyAppTests */,
+			);
+			name = ArgosyAppTests;
+			packageProductDependencies = (
+			);
+			productName = ArgosyAppTests;
+			productReference = 9C2BC7902D4FF97C007C2435 /* ArgosyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C2BC7992D4FF97C007C2435 /* ArgosyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2BC7AA2D4FF97C007C2435 /* Build configuration list for PBXNativeTarget "ArgosyAppUITests" */;
+			buildPhases = (
+				9C2BC7962D4FF97C007C2435 /* Sources */,
+				9C2BC7972D4FF97C007C2435 /* Frameworks */,
+				9C2BC7982D4FF97C007C2435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C2BC79C2D4FF97C007C2435 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9C2BC79D2D4FF97C007C2435 /* ArgosyAppUITests */,
+			);
+			name = ArgosyAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ArgosyAppUITests;
+			productReference = 9C2BC79A2D4FF97C007C2435 /* ArgosyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C2BC7782D4FF97A007C2435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9C2BC77F2D4FF97A007C2435 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9C2BC78F2D4FF97C007C2435 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9C2BC77F2D4FF97A007C2435;
+					};
+					9C2BC7992D4FF97C007C2435 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9C2BC77F2D4FF97A007C2435;
+					};
+				};
+			};
+			buildConfigurationList = 9C2BC77B2D4FF97A007C2435 /* Build configuration list for PBXProject "ArgosyApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C2BC7772D4FF97A007C2435;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9C2BC7812D4FF97A007C2435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C2BC77F2D4FF97A007C2435 /* ArgosyApp */,
+				9C2BC78F2D4FF97C007C2435 /* ArgosyAppTests */,
+				9C2BC7992D4FF97C007C2435 /* ArgosyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C2BC77E2D4FF97A007C2435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2BC78E2D4FF97C007C2435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2BC7982D4FF97C007C2435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C2BC77C2D4FF97A007C2435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2BC78C2D4FF97C007C2435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2BC7962D4FF97C007C2435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C2BC7922D4FF97C007C2435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C2BC77F2D4FF97A007C2435 /* ArgosyApp */;
+			targetProxy = 9C2BC7912D4FF97C007C2435 /* PBXContainerItemProxy */;
+		};
+		9C2BC79C2D4FF97C007C2435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C2BC77F2D4FF97A007C2435 /* ArgosyApp */;
+			targetProxy = 9C2BC79B2D4FF97C007C2435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C2BC7A22D4FF97C007C2435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C2BC7A32D4FF97C007C2435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C2BC7A52D4FF97C007C2435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArgosyApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.apetech.ArgosyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C2BC7A62D4FF97C007C2435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArgosyApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.apetech.ArgosyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C2BC7A82D4FF97C007C2435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.apetech.ArgosyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArgosyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArgosyApp";
+			};
+			name = Debug;
+		};
+		9C2BC7A92D4FF97C007C2435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.apetech.ArgosyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArgosyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArgosyApp";
+			};
+			name = Release;
+		};
+		9C2BC7AB2D4FF97C007C2435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.apetech.ArgosyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArgosyApp;
+			};
+			name = Debug;
+		};
+		9C2BC7AC2D4FF97C007C2435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.apetech.ArgosyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArgosyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C2BC77B2D4FF97A007C2435 /* Build configuration list for PBXProject "ArgosyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2BC7A22D4FF97C007C2435 /* Debug */,
+				9C2BC7A32D4FF97C007C2435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C2BC7A42D4FF97C007C2435 /* Build configuration list for PBXNativeTarget "ArgosyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2BC7A52D4FF97C007C2435 /* Debug */,
+				9C2BC7A62D4FF97C007C2435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C2BC7A72D4FF97C007C2435 /* Build configuration list for PBXNativeTarget "ArgosyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2BC7A82D4FF97C007C2435 /* Debug */,
+				9C2BC7A92D4FF97C007C2435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C2BC7AA2D4FF97C007C2435 /* Build configuration list for PBXNativeTarget "ArgosyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2BC7AB2D4FF97C007C2435 /* Debug */,
+				9C2BC7AC2D4FF97C007C2435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C2BC7782D4FF97A007C2435 /* Project object */;
+}
