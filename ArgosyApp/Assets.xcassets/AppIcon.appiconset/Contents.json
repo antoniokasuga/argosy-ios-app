@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "DALL·E 2025-02-02 22.12.50 - A very minimalistic schematic club card with a flag of Latvia. The club card is simple, with clean lines and minimal details, resembling an ID or memb.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -12,6 +13,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "DALL·E 2025-02-02 22.12.50 - A very minimalistic schematic club card with a flag of Latvia. The club card is simple, with clean lines and minimal details, resembling an ID or memb 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -23,6 +25,7 @@
           "value" : "tinted"
         }
       ],
+      "filename" : "DALL·E 2025-02-02 22.12.50 - A very minimalistic schematic club card with a flag of Latvia. The club card is simple, with clean lines and minimal details, resembling an ID or memb 2.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
